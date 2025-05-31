@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>First Attempt</title>
+    </head>
+
+    <header>
+        <h1>About Me!</h1>
+        <p>This is one of my first html-only projects that does not include any sort of styling.<br> Now let's get to know more about me!</p>
+    </header>
+
+    <body>
+        <!--All anchor work, the page is just too small to properly show it-->
+        <section id="contents">
+            <h2>Table of Contents:</h2>
+            <ol>
+                <li><a href="#likes">Likes</a></li>
+                <li><a href="#aspirations">Aspirations</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#feedback">Feedback</a></li>
+            </ol>
+        </section>
+        <section id="likes">
+            <h2>What do I like?</h2>
+            <ul>
+                <li> Reading</li>
+                <li>Video Games</li>
+                <li>My boyfriend</li>
+                <li>My cat</li>
+            </ul>
+            <img src="https://media.istockphoto.com/id/1642703804/vector/simple-and-adorable-illustration-of-orange-tabby-cat-sleeping.jpg?s=612x612&w=0&k=20&c=2X-_V047djODdD2WJ6QaxLZxxjlyF4PC7CKkIUkKLNM=" 
+                    alt="cat" width="200" height="200">
+        </section>
+
+        <section id="aspirations">
+            <h2>What do I aspire to be?</h2>
+            <form>
+                <legend>Choose One:</legend><br>
+                <input type="radio" id="soft-dev" name="soft-dev" value="soft-dev" aria-checked="true" checked>
+                <label for="soft-dev">Software Developer</label><br>
+                <input type="radio" id="web-dev" name="web-dev" value="web-dev">
+                <label for="web-dev">Web Developer</label><br>
+                <input type="radio" id="data-analyst" name="data-analyst" value="data-analyst">
+                <label for="data-analyst">Data Analyst</label><br>
+                <input type="radio" id="soft-eng" name="soft-eng" value="soft-eng">
+                <label for="data-scientist">Data Scientist</label><br>
+            </form>
+        </section>
+
+        <section id="skills">
+            <h2>What are my skills?</h2>
+            <form>
+                <legend>Choose multiple:</legend><br>
+                <input type="checkbox" id="html" name="html" value="html">
+                <label for="html">HTML</label>
+                <input type="checkbox" id="css" name="css" value="css">
+                <label for="css">CSS</label>
+                <input type="checkbox" id="js" name="js" value="js">
+                <label for="js">JavaScript</label>
+                <input type="checkbox" id="python" name="python" value="python">
+                <label for="python">Python</label><br>
+                <input type="checkbox" id="java" name="java" value="java">
+                <label for="java">Java</label>
+                <input type="checkbox" id="c++" name="c++" value="c++">
+                <label for="c++">C++</label>
+                <input type="checkbox" id="sql" name="sql" value="sql">
+                <label for="sql">SQL</label>
+            </form>
+        </section>
+
+        <section id="feedback">
+            <h3>Any questions?</h3>
+            <textarea rows="10" cols="35" placeholder="Comment here"></textarea><br>
+            <button type="submit">Submit</button>
+        </section>
+    </body>
+
+    <footer>
+        <h4>Socials:</h4>
+        <a href="https://www.linkedin.com/in/haleigh-powe-4b2814306/" target="_blank">LinkedIn</a><br>
+        <p>created by Haleigh Powe</p>
+    </footer>
+
+
+</html>
