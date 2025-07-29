@@ -74,4 +74,6 @@ h2 {
 #likes img {
     float: right;
     margin: 0;
+    border-radius: 5px;
+    border: 4px solid #868b8e66;
 }
